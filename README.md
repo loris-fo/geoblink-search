@@ -2,14 +2,13 @@
 
 > A Vue.js project
 
-## fake server runnning
+## add fake server
 
-> Install json-server globally to fake the Node.js backend
-```
+``` bash
+# Install json-server globally to fake the Node.js backend
 npm install -g json-server
-```
-> Run the fake server
-```
+
+# Run the fake server at localhost:3000
 json-server --watch src/db.json
 ```
 
