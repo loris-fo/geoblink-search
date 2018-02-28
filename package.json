@@ -11,8 +11,12 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "bootstrap": "^4.0.0",
+    "bootstrap-vue": "^2.0.0-rc.1",
     "vue": "^2.5.2",
-    "vue-router": "^3.0.1"
+    "vue-resource": "^1.4.0",
+    "vue-router": "^3.0.1",
+    "vue-select": "^2.4.0"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
