@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <img class="ml-3 mt-3" src="./assets/logo.svg">
     <router-view :states="states"/>
   </div>
 </template>
@@ -27,12 +27,14 @@ export default {
 </script>
 
 <style>
+body {
+  background-color: #1e3650;
+}
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  height: calc(100vh - 80px);
 }
 </style>
