@@ -37,7 +37,6 @@ export default {
     return {
       title: 'Smart data, powerful decisions',
       subtitle: 'Instant access to all kinds of data sources',
-      arrState: [],
       newFilters: []
     }
   },
